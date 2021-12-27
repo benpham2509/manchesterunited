@@ -1,0 +1,48 @@
+@media (max-width: 740px) {
+.s-full-width,
+.s-col-full {
+    width: 100% !important; 
+}
+
+.s-mt-8 {
+    margin-top: 8px !important;
+}
+  
+#header {
+    overflow: hidden;
+}
+
+#header .search-button {
+    display: none;
+  }
+  #header .mobile-menu-btn {
+    display: block;
+   
+    
+}
+.nav {
+    display: block;
+    flex: 1;
+}
+
+.nav > li {
+    display: block;
+  }
+
+.nav .subnav {
+    position: initial;
+}
+
+#slider .text-content  {
+    bottom: 16px;
+}
+
+#content .player-thumb {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.contact-form {
+    margin-top: 32px;
+}
+}
